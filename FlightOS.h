@@ -1,6 +1,7 @@
 #pragma once
 #include<Arduino.h>
-
+#include <Wire.h>
+#include <MPU6050_tockn.h>
 #define g 9.81
 template< uint16_t N>//n дл€ функций с периодом; k дл€ функций выполн€ющихс€ каждый раз
 class FlightOS {
