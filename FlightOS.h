@@ -30,4 +30,7 @@ public:
   void turnOff(int num) {
     On[num] = 0;
   }
+  void setMPU() {
+
+  }
 };
